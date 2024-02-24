@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "symbolic"
+version = "1.0.0"
+authors = [
+  { name="Jasper Dekoninck", email="dekoninck.jasper@protonmail.com" },
+]
+description = "Symbolic computation engine"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache 2.0 License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy >= 1.24.3",
+]
